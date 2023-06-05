@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+}
+
+html, body{
+  min-height: 100%;
+}
+
+.App{
+  min-height: 100%;
+  border: 5px solid gold;
+  overflow-x: hidden;
+}
+
+/* APPS JSX */
+.for-img{
+  position: relative;
+  bottom: 30px;
+}
+
+/* BUY JSX */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* MEMOS JSX */
+
+.td-1, .td-2{
+  flex-basis: 15%;
+}
+
+.td-3, .td-4{
+  flex-basis: 35%;
+}
+
+@media screen and (max-width: 1024px) {
+  .memo-div{
+    flex-direction: column;
+    /* ma */
+  }
+
+  .td-1, .td-2, .td-3{
+    border-right: 0;
+    border-bottom: 2px solid #991b1b;
+  }
+}
+
+i{
+  font-size: 1.5em;
+  color: #991b1b;
+}
+
+footer{
+  background-color: antiquewhite;
+  padding: 0.5em;
+  width: 100%;
+  bottom: 0;
+  /* position: fixed; */
+  /* bottom: 0px; */
+  /* margin-top: auto; */
+}
