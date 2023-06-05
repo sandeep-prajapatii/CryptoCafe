@@ -6,20 +6,15 @@
   font-family: 'Lexend', sans-serif;
 }
 
-html, body{
-  min-height: 100%;
-}
-
-.App{
-  min-height: 100%;
-  border: 5px solid gold;
-  overflow-x: hidden;
-}
-
 /* APPS JSX */
 .for-img{
   position: relative;
   bottom: 30px;
+}
+.help{
+  position: absolute;
+  right: 0.4rem;
+  top: 13.5rem;
 }
 
 /* BUY JSX */
@@ -30,38 +25,41 @@ input::-webkit-inner-spin-button {
 }
 
 /* MEMOS JSX */
-
 .td-1, .td-2{
   flex-basis: 15%;
 }
-
 .td-3, .td-4{
   flex-basis: 35%;
+}
+
+/* FOOTER */
+i{
+  font-size: 1.5em;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
   .memo-div{
     flex-direction: column;
-    /* ma */
   }
-
   .td-1, .td-2, .td-3{
     border-right: 0;
     border-bottom: 2px solid #991b1b;
   }
 }
 
-i{
-  font-size: 1.5em;
-  color: #991b1b;
-}
+@media screen and (max-width: 768px) {
+  input{
+    width: 100% !important;
+  }
+  .banner{
+    font-size: 2rem !important;
+  }
+  .banner-div{
+    height: 11rem !important;
+  }
 
-footer{
-  background-color: antiquewhite;
-  padding: 0.5em;
-  width: 100%;
-  bottom: 0;
-  /* position: fixed; */
-  /* bottom: 0px; */
-  /* margin-top: auto; */
+  .help{
+    top: 11.5rem;
+  }
 }
