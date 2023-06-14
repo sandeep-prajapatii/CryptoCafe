@@ -46,7 +46,7 @@ function App() {
         console.log(error)
       }
     }
-    connectWallet();
+    // connectWallet();
   }, []);
 
   return (
@@ -58,7 +58,8 @@ function App() {
 
     <img src={profile}  alt='profile' className='h-40 rounded-full mx-auto  relative bottom-8 border-solid border-2 border-red-800'/>
     <a href='https://github.com/sandeep-prajapatii/CryptoCafe/blob/main/README.md' target="_blank"><i className="fa-regular fa-circle-question text-red-800 help"/></a>
-
+    
+    <div className='main-div'>
     <div className='container mx-auto text-center'>
       <p className='text-2xl mb-2'>Sandeep Prajapati</p>
       <p>A Computer Science Student / Blockchain Developer / Frontend Developer</p>
@@ -72,6 +73,7 @@ function App() {
     </div>
 
     <Memo state={state}/>
+    </div>
     </div>
 
     <footer className='flex flex-col bg-red-800 p-3'>

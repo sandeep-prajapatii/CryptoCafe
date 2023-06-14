@@ -6,6 +6,10 @@
   font-family: 'Lexend', sans-serif;
 }
 
+.main-div{
+  height: 55vh;
+}
+
 /* APPS JSX */
 .for-img{
   position: relative;
