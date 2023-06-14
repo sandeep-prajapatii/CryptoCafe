@@ -6,9 +6,10 @@
   font-family: 'Lexend', sans-serif;
 }
 
-.main-div{
-  height: 55vh;
+.App{
+  min-height: 100vh;
 }
+
 
 /* APPS JSX */
 .for-img{
@@ -46,6 +47,10 @@ input::-webkit-inner-spin-button {
 i{
   font-size: 1.5em;
   color: white;
+}
+
+.main-div{
+  min-height: 94vh;
 }
 
 @media screen and (max-width: 1024px) {

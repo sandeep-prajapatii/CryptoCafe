@@ -46,12 +46,13 @@ function App() {
         console.log(error)
       }
     }
-    connectWallet();
+    // connectWallet();
   }, []);
 
   return (
     <div className='App'>
 
+    <div className='main-div'>
     <div className='bg-red-800 h-52 flex justify-center items-center banner-div'>
       <p className='text-white text-center text-5xl font-black banner'>Fueling dreams, <span className='whitespace-nowrap'>0ne cup at a time</span></p>
     </div>
@@ -59,7 +60,6 @@ function App() {
     <img src={profile}  alt='profile' className='h-40 rounded-full mx-auto  relative bottom-8 border-solid border-2 border-red-800'/>
     <a href='https://github.com/sandeep-prajapatii/CryptoCafe/blob/main/README.md' target="_blank"><i className="fa-regular fa-circle-question text-red-800 help"/></a>
     
-    <div className='main-div'>
     <div className='container mx-auto text-center'>
       <p className='text-2xl mb-2'>Sandeep Prajapati</p>
       <p>A Computer Science Student / Blockchain Developer / Frontend Developer</p>
@@ -76,7 +76,7 @@ function App() {
     </div>
     </div>
 
-    <footer className='flex flex-col bg-red-800 p-3'>
+    <footer className='bg-red-800 p-3'>
       <div className="flex justify-evenly">
         <a href='https://github.com/sandeep-prajapatii' target="_blank"><i className="fa-brands fa-square-github"/></a>
         <a href="mailto:sandeeprajapati18@gmail.com" target="_blank"><i className="fa-solid fa-envelope"/></a>
